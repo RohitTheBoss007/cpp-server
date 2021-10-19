@@ -12,7 +12,7 @@ HTTP server implemented in C++ without any third party library.
 * Multithreaded/Thread Pooling
 * Handles over 20,000 concurrent connections.
 * Serves over 100,000 requests per second on a modern personal computer
-* 
+
 ## Compile and Run
 ```sh
  g++ -pthread main.cpp html_parser.cpp -o server
